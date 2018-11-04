@@ -1,0 +1,16 @@
+﻿
+@using mvcintermediate.Models
+@model  List<Kategori>
+
+
+@foreach (var kategori in Model)
+{
+
+
+    <ul class="list-group">
+        <li class="list-group-item">
+
+            @kategori.KategoriAdi
+        </li>
+    </ul>
+}
